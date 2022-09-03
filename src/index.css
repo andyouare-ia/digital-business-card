@@ -36,13 +36,21 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+button a {
+  text-decoration: none;
+  color: inherit;
+}
 
 button:hover {
-  border-color: #646cff;
+  border-color: #F47D27;
+  background-color: rgba(244,125,30, 0.1);
+  color: #F47D27;
+  transition: 0.5s;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+  color: #F47D27;
 }
 
 /* Header */

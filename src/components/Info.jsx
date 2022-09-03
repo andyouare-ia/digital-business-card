@@ -8,7 +8,7 @@ export default function Info() {
         <h1>And you are?</h1>
         <h3>Fullstack Developer</h3>
         <p>andyouare.dev</p>
-        <button>Email</button>
+        <button><a href="mailto:email@andyouare.dev">Email</a></button>
       </div>
     </header>
   )
